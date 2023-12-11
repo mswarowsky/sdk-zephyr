@@ -180,6 +180,7 @@ zephyr_interface_library_named(mbedTLS)
       ${ZEPHYR_CURRENT_MODULE_DIR}/library/ssl_tls13_keys.c
       ${ZEPHYR_CURRENT_MODULE_DIR}/library/ssl_tls13_server.c
       ${ZEPHYR_CURRENT_MODULE_DIR}/library/ssl_tls.c
+      zephyr_time.c
     )
 
     zephyr_library_sources(${mbedtls_source})
